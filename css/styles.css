@@ -1,0 +1,112 @@
+.body__background
+{
+    background-color: #afa79a47;
+    border-radius: 25px;
+    box-shadow: 0 1px 16px #00000026;
+    padding: 28px 16px 26px;
+}
+
+.container__01
+{
+    margin: auto;
+    max-width: 40%;
+    padding: 18px;
+    background-color: #cdc2c2d1;
+    border-radius: 18px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.container__02
+{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 16px;
+}
+
+
+.text__style
+{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+    text-shadow: 2px 2px 4px rgba(37, 36, 36, 0.175);
+}
+
+.card 
+{
+  width: 280px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  font-family: Arial, sans-serif;
+}
+
+.title__promo 
+{
+  height: 180px;
+  border-radius: 28px;
+  background:
+    url('/img/ninraimg.png') center/cover no-repeat;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.288);
+}
+
+.card--promo .card__header {
+  height: 140px;
+  background: 
+    url('/img/areatransformimg.png') center/cover no-repeat,
+    linear-gradient(135deg, #4a90e2, #1c3c72);
+}
+
+.card__body {
+  background: #fff;
+  padding: 16px;
+  text-align: center;
+}
+
+.card__title {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.card__text {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: #1b1a1ab0;
+  text-shadow: 1px 1px 4px rgba(37, 36, 36, 0.474);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.card__btn {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 8px 16px;
+  background: #218838;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background .2s;
+}
+.card__btn:hover {
+  background: #4c985c;
+}
+
+.language__btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: #333;
+  border: 0px solid #333;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow:0 2px 2px #22222272;
+}
+
+.lenguage__btn:hover {
+  color: #fff;
+  border-radius: 8px;
+  box-shadow:0 2px 2px #cdc2c2d1;
+}
+

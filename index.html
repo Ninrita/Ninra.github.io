@@ -4,19 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="languageSettings.js"></script>
 </head>
-<body class="bodybackground">
-    
+<body class="body__background">
+
     <div>
+        <button id = "Inglish" style="background: url(img/estados-unidos.png) center/cover no-repeat;" class="language__btn"></button>
+        <button id = "Spanish" style="background: url(img/espana.png) center/cover no-repeat;" class="language__btn"></button>
+    </div>
 
-        <div class="card--compact">
-            
+    <div class="container__01">
+        <div class="title__promo"></div>
+        <br>
+        <h2 class="text__style" id="Aboutme01">About me</h2>
+        <p id="Aboutme02" class="text__style">I am an independent developer taking my first steps in the Unity Asset Store. I specialize in creating add-ons for the MMORPG Kit, as I am also working on my own MMORPG based on this asset.
+        Most of my assets are used directly in my project, which allows me to guarantee their proper functioning and ensure that they are attractive and truly useful.
+        I am confident in the quality of my creations and hope you will give them a try. Thank you in advance for your support!
+        </p>
+    </div>
+
+    <h2 id="Addons" class="text__style">Add-ons for the MMORPG Kit</h2>
+    
+    <div class="container__02">
+        <div class="card card--promo">
+            <div class="card__header"></div>
+            <div class="card__body">
+                <h1 class="card__title">Area Transform Skill</h1>
+                <div id="CardText01" class="card__text">Expand your MMORPG KIT combat system with dynamic, multi-hit movement skills. 
+                Reuse the built-in “area damage entity” class to spawn damage zones on the fly, ensuring seamless compatibility and no conflicts.
+                </div>
+                <a href="" class="card__btn">Ver en la asset store</a>
+            </div>
         </div>
-
-        <div>
-
+            
+        <div class="card card--promo">
+            <div class="card__header"></div>
+            <div class="card__body">
+                <h1 class="card__title">Coming Soon</h1>
+                <div id = "CardText02" class="card__text">Coming Soon
+                </div>
+                <a href="" class="card__btn">Coming soon</a>
+            </div>
         </div>
     </div>
+    <hr>
+
+    <p class="text__style"> @2025 Ninra assets - All rights reserved - Contact gmail: ninra9273@gmail.com </p>
+    <script src="languageSettings"></script>
 </body>
 </html>
