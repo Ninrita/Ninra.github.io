@@ -51,11 +51,17 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.288);
 }
 
-.card--promo .card__header {
+.card--promo .card__header01 {
   height: 140px;
   background: 
-    url('/img/areatransformimg.png') center/cover no-repeat,
-    linear-gradient(135deg, #4a90e2, #1c3c72);
+    url('/img/areatransformimg.png') center/cover no-repeat;
+}
+
+.card--promo .card__header02 {
+  height: 140px;
+  background: 
+    url('') center/cover no-repeat,
+    linear-gradient(135deg, #484a4c, #cdc2c2d1);
 }
 
 .card__body {
