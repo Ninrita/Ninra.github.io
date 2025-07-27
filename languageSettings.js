@@ -44,6 +44,8 @@ document.addEventListener('DOMContentLoaded', () =>
          Reutiliza la clase integrada “area damage entity” para generar zonas de daño sobre la marcha, 
          garantizando compatibilidad perfecta y sin conflictos.`.trim();
 
-         cardText02.textContent = `Estoy trabajando un sistema capaz de poder cargar mp al estilo de naruto y dragon ball bastante completo esten atentos`.trim();
+         cardText02.textContent = `Estoy trabajando en un sistema de recarga de MP completo, inspirado en Naruto y Dragon Ball.
+        Su adaptación será un poco más compleja, pero espero poder hacerlo sin realizar cambios en el núcleo.
+        Pronto habrá algunos videos con avances.`.trim();
     });
 });

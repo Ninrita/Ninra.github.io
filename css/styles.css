@@ -47,14 +47,14 @@
   height: 180px;
   border-radius: 28px;
   background:
-    url('/img/ninraimg.png') center/cover no-repeat;
+    url('/main/img/ninraimg.png') center/cover no-repeat;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.288);
 }
 
 .card--promo .card__header01 {
   height: 140px;
   background: 
-    url('/img/areatransformimg.png') center/cover no-repeat;
+    url('/main/img/areatransformimg.png') center/cover no-repeat;
 }
 
 .card--promo .card__header02 {
