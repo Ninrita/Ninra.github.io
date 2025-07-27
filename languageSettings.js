@@ -16,18 +16,18 @@ document.addEventListener('DOMContentLoaded', () =>
         aboutmeText01.textContent = `About me`
         
         aboutmeText02.textContent = `I am an independent developer taking my first steps in the Unity Asset Store. I specialize in creating add-ons for the MMORPG Kit, as I am also working on my own MMORPG based on this asset.
-        Most of my assets are used directly in my project, which allows me to guarantee their proper functioning and ensure that they are attractive and truly useful.
+        Most of my assets are used directly in my project "Gaiden Online", which allows me to guarantee their proper functioning and ensure that they are attractive and truly useful.
         I am confident in the quality of my creations and hope you will give them a try. Thank you in advance for your support!`.trim();
         
         addonText.textContent = `Add-ons for the MMORPG Kit `.trim();
         
         cardText01.textContent = `Expand your MMORPG KIT combat system with dynamic, multi-hit movement skills. 
         Reuse the built-in “area damage entity” class to spawn damage zones on the fly,
-         ensuring seamless compatibility and no conflicts. `.trim();
+        ensuring seamless compatibility and no conflicts. `.trim();
 
-          cardText02.textContent = `I’m working on a fully featured MP charging system inspired by Naruto and Dragon Ball.
-            Its adaptation will be a bit more complex, but I hope to do it without making changes to the core.
-            some progress videos coming.`.trim();
+        cardText02.textContent = `I’m working on a fully featured MP charging system inspired by Naruto and Dragon Ball.
+        Its adaptation will be a bit more complex, but I hope to do it without making changes to the core.
+        some progress videos coming.`.trim();
     });
 
     spanish.addEventListener("click", () =>
