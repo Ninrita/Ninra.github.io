@@ -13,7 +13,7 @@
     padding: 18px;
     background-color: #cdc2c2d1;
     border-radius: 18px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .container__02
@@ -110,8 +110,8 @@
   box-shadow:0 2px 2px #22222272;
 }
 
-.lenguage__btn:hover {
-  color: #fff;
+.language__btn:hover {
+  color: #ffffff;
   border-radius: 8px;
   box-shadow:0 2px 2px #cdc2c2d1;
 }

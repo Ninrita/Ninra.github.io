@@ -4,6 +4,8 @@ document.addEventListener('DOMContentLoaded', () =>
     const inglish = document.getElementById("Inglish");
     const spanish = document.getElementById("Spanish");
 
+    const discord = document.getElementById("Discord");
+
     const aboutmeText01 = document.getElementById("Aboutme01");
     const aboutmeText02 = document.getElementById("Aboutme02");
     const addonText = document.getElementById("Addons");
@@ -49,4 +51,8 @@ document.addEventListener('DOMContentLoaded', () =>
         Su adaptación será un poco más compleja, pero espero poder hacerlo sin realizar cambios en el núcleo.
         Pronto habrá algunos videos con avances.`.trim();
     });
+
+    discord.addEventListener("click", () => {
+        window.location.href = 'https://discord.gg/t47q9wMm';
+    })
 });
